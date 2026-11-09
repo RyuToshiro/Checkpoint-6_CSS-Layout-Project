@@ -30,7 +30,7 @@ header {
     gap: 10px;
     font-weight: 700;
     font-size: 1.25rem;
-    color: #00b39b;
+    color: #2b4c7e;
 }
 
 .logo-container span {
@@ -52,7 +52,7 @@ header {
 
 .nav-links a:hover,
 .nav-links a.active {
-    color: #00b39b;
+    color: #2b4c7e;
 }
 
 /* Hero Section */
@@ -69,7 +69,7 @@ header {
 }
 
 .hero-section h1 {
-    color: #00b39b;
+    color: #2b4c7e;
     font-size: 2.25rem;
     margin-bottom: 1.5rem;
     font-weight: 400;
@@ -88,7 +88,7 @@ header {
     font-size: 0.95rem;
 }
 
-/* Cards Section (For Patients / For Doctors) */
+/* Cards Section */
 .cards-section {
     display: flex;
     gap: 2rem;
@@ -107,11 +107,11 @@ header {
 }
 
 .card.patient {
-    background-color: #00b39b;
+    background-color: #2b4c7e;
 }
 
 .card.doctor {
-    background-color: #3d83df;
+    background-color: #3b5998;
 }
 
 .card h2 {
@@ -145,7 +145,7 @@ header {
 }
 
 .brands-section h2 {
-    color: #00b39b;
+    color: #2b4c7e;
     font-size: 2rem;
     margin-bottom: 1rem;
     font-weight: 400;
@@ -161,8 +161,10 @@ header {
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
     align-items: center;
-    color: #ababab;
+    color: #666666;
     font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
 }
 
 /* Footer */
@@ -176,6 +178,6 @@ footer {
 }
 
 footer a {
-    color: #00b39b;
+    color: #2b4c7e;
     text-decoration: none;
 }
